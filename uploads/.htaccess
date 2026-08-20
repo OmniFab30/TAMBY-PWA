@@ -1,0 +1,10 @@
+# Empêche toute exécution de code dans ce dossier — seules les images
+# téléversées depuis l'admin doivent pouvoir y être servies en lecture.
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|phtml|php\d)$">
+  Require all denied
+</FilesMatch>
+Options -ExecCGI
+AddType text/plain .php .phtml
