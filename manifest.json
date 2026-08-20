@@ -1,0 +1,17 @@
+{
+  "name": "Tamby — Expérience d'anniversaire",
+  "short_name": "Tamby",
+  "description": "Une expérience unique créée pour l'anniversaire de Tamby.",
+  "start_url": "/index.php",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#06030d",
+  "theme_color": "#06030d",
+  "lang": "fr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
